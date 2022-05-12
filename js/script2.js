@@ -15,7 +15,7 @@ let numPc = numeroComputer();
 
 function numeroComputer(){
 
-    number = Math.floor(Math.random() * 5) + 1;
+    let number = Math.floor(Math.random() * 5) + 1;
 
     return number;
 }
